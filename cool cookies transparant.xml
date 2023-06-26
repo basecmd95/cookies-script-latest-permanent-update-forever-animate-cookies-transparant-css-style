@@ -1,0 +1,128 @@
+<!-- cookies css style responsive customization by basecmd95 with supported under <head> then paste it in beetween there at you like -->  
+
+&lt;link rel=&quot;me&quot; href=&quot;https://www.blogger.com/profile/04997561812682007579&quot;&gt;&lt;/link&gt;
+&lt;meta name=&quot;google-adsense-platform-account&quot; content=&quot;ca-host-pub-5512969797333702&quot;&gt;&lt;/meta&gt;
+&lt;meta name=&quot;google-adsense-platform-domain&quot; content=&quot;blogspot.com&quot;&gt;&lt;/meta&gt;
+
+&lt;script type=&quot;text/javascript&quot; language=&quot;javascript&quot;&gt;
+  // Supply ads personalization default for EEA readers
+  // See https://www.blogger.com/go/adspersonalization
+  adsbygoogle = window.adsbygoogle || [];
+  if (typeof adsbygoogle.requestNonPersonalizedAds === &#39;undefined&#39;) {
+    adsbygoogle.requestNonPersonalizedAds = 1;
+  }
+&lt;/script&gt;
+  
+
+
+
+
+ <style class='singleton-element' type='text/css'>
+@keyframes borderAnimation {
+  0% {
+    border-color: transparent;
+  }
+  50% {
+    border-color: gold;
+  }
+  100% {
+    border-color: transparent;
+  }
+}
+
+.cookie-choices-info {
+  position: fixed;
+  width: 100%;
+  margin: 0;
+  left: 0;
+  top: 0;
+  padding: 0;
+  z-index: 4000;
+  text-align: center;
+  color: #fff;
+  line-height: 140%;
+  font-family: &quot;Roboto&quot;, Arial;
+  background-color: transparent;
+  animation: borderAnimation 3s infinite;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.cookie-choices-info .cookie-choices-inner {
+  padding: 20px;
+}
+
+.cookie-choices-info .cookie-choices-text {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
+  margin: 10px 0;
+  font-family: &quot;Georgian&quot;, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+  position: relative;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  animation: borderAnimation 3s infinite;
+  border-bottom: 2px solid gold; /* Added a solid gold color for the line */
+}
+
+.cookie-choices-info .cookie-choices-buttons {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.cookie-choices-info .cookie-choices-button:hover {
+  color: #fff;
+}
+
+.cookie-choices-info .cookie-choices-button {
+  font-weight: bold;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: #008000;
+  margin: 0 8px;
+  padding: 0 12px;
+  text-decoration: none;
+}
+
+.cookie-choices-info a.cookie-choices-button[href=&quot;https://www.blogger.com/go/blogspot-cookies&quot;],
+.cookie-choices-info #cookieChoiceDismiss {
+  color: #ff0000;
+}
+</style>
+
+
+
+
+
+
+ 
+&lt;script&gt;
+document.addEventListener(&#39;DOMContentLoaded&#39;, function(event) {
+  window.cookieChoices &amp;&amp; cookieChoices.showCookieConsentBar &amp;&amp; cookieChoices.showCookieConsentBar(
+    (window.cookieOptions &amp;&amp; cookieOptions.msg) || &#39;This website uses cookies from Google to provide services and analyze access. Your IP address and user agent are transmitted to Google along with performance and security metrics. This allows for the creation of usage statistics, detection and resolution of abuse cases, and ensuring the quality of the service.&#39;,
+    (window.cookieOptions &amp;&amp; cookieOptions.close) || &#39;Ok&#39;,
+    (window.cookieOptions &amp;&amp; cookieOptions.learn) || &#39;Further information&#39;,
+    (window.cookieOptions &amp;&amp; cookieOptions.link) || &#39;https://www.blogger.com/go/blogspot-cookies&#39;
+  );
+});
+&lt;/script&gt;
+
+&lt;div id=&quot;cookieChoiceInfo&quot; class=&quot;cookie-choices-info singleton-element&quot;&gt;
+  &lt;div class=&quot;cookie-choices-inner&quot;&gt;
+    &lt;span class=&quot;cookie-choices-text&quot;&gt;
+      This website uses cookies from Google to provide services and analyze access. Your IP address and user agent are transmitted to Google along with performance and security metrics. This allows for the creation of usage statistics, detection and resolution of abuse cases, and ensuring the quality of the service.
+    &lt;/span&gt;
+    &lt;span class=&quot;cookie-choices-buttons&quot;&gt;
+      &lt;a href=&quot;https://www.blogger.com/go/blogspot-cookies&quot; target=&quot;_blank&quot; class=&quot;cookie-choices-button&quot;&gt;Further information&lt;/a&gt;
+      &lt;a id=&quot;cookieChoiceDismiss&quot; href=&quot;#&quot; class=&quot;cookie-choices-button&quot;&gt;Ok|Consent|Accepted&lt;/a&gt;
+    &lt;/span&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+  
+<!-- cookies css style responsive customization by basecmd95 with supported under <head> then paste it in beetween there at you like -->  
